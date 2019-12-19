@@ -1,6 +1,6 @@
 # Springboard Data Science Bootcamp!
 
-![Design Blocks](https://www.springboard.com/)
+![Design Blocks](https://twitter.com/Springboard/photo)
 
 [Register for Springboard Here!](https://www.springboard.com/)
 
