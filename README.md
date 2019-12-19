@@ -4,7 +4,7 @@
 
 [Register for Springboard Here!](https://www.springboard.com/)
 
-### This project involves a series of efforts taken @ Springboard's Data Science: Machine Learning Bootcamp program.
+### This repo involves a series of projects engaged in @ Springboard's Data Science: Machine Learning Bootcamp program.
 
 Throughout the course, candidates get exposed to several Data Science Industry leaders, concepts, tools, and software libraries. The devices are critical for the success of practicing Data Scientists, especially in the machine learning world. Topics include everything from ML libraries to deployment tools. There are also refreshers on software engineering best practices and foundational math concepts that every ML Engineer should know.
 
