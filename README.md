@@ -1,6 +1,6 @@
 # Springboard Data Science Bootcamp!
 
-![Design Blocks](https://unsplash.com/photos/2EJCSULRwC8)
+![Design Blocks](https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
 
 [Register for Springboard Here!](https://www.springboard.com/)
 
