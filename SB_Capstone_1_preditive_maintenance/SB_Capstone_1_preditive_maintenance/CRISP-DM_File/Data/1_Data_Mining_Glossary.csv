@@ -1,0 +1,222 @@
+Name,Definition
+accuracy,"Accuracy is an important factor in assessing the success of data mining. When applied to data, accuracy refers to the rate of correct values in the data. When applied to models, accuracy refers to the degree of fit between the model and the data. This measures how error-free the model’s predictions are. Since accuracy does not include cost information, it is possible for a less accurate model to be more cost-effective. Also see precision."
+activation function,"A function used by a node in a neural net to transform input data from any domain of values into a finite range of values. The original idea was to approximate the way neurons fired, and the activation function took on the value 0 until the input became large and the value jumped to 1. The discontinuity of this 0-or-1 function caused mathematical problems, and sigmoid-shaped functions (e.g., the logistic function) are now used."
+antecedent,"When an association between two variables is defined, the first item (or left-hand side) is called the antecedent. For example, in the relationship “When a prospector buys a pick, he buys a shovel 14% of the time,” “buys a pick” is the antecedent."
+Application Programming Interface (API),The technical window/programming language interface through which users can access and obtain vast quantities of information (text/data/objects) in a machine- readable format.
+associations,"An association algorithm creates rules that describe how often events have occurred together. For example, “When prospectors buy picks, they also buy shovels 14% of the time.” Such relationships are typically expressed with a confidence interval."
+backpropagation,A training method used to calculate the weights in a neural net from the data.
+bias,"In a neural network, bias refers to the constant terms in the model. (Note that bias has a different meaning to most data analysts.) Also see precision."
+binning,"A data preparation activity that converts continuous data to discrete data by replacing a value from a continuous range with a bin identifier, where each bin represents a range of values. For example, age could be converted to bins such as 20 or under, 21-40, 41-65 and over 65."
+bootstrapping,"Training data sets are created by re-sampling with replacement from the original training set, so data records may occur more than once. In other words, this method treats a sample as if it were the entire population. Usually, final estimates are obtained by taking the average of the estimates from each of the bootstrap test sets."
+CART,"Classification And Regression Trees. CART is a method of splitting the independent variables into small groups and fitting a constant function to the small data sets. In categorical trees, the constant function is one that takes on a finite small set of values (e.g., Y or N, low or medium or high). In regression trees, the mean value of the response is fit to small connected data sets."
+categorical data,"Categorical data fits into a small number of discrete categories (as opposed to continuous). Categorical data is either non-ordered (nominal) such as gender or city, or ordered (ordinal) such as high, medium, or low temperatures."
+CHAID,An algorithm for fitting categorical trees. It relies on the chi-squared statistic to split the data into small connected data sets.
+chi-squared,"A statistic that assesses how well a model fits the data. In data mining, it is most commonly used to find homogeneous subsets for fitting categorical trees as in CHAID."
+classification,Refers to the data mining problem of attempting to predict the category of categorical data by building a model based on some predictor variables.
+classification tree,A decision tree that places categorical variables into classes.
+cleaning (cleansing),"Refers to a step in preparing data for a data mining activity. Obvious data errors are detected and corrected (e.g., improbable dates) and missing data is replaced."
+clustering,"Clustering algorithms find groups of items that are similar. For example, clustering could be used by an insurance company to group customers according to income, age, types of policies purchased and prior claims experience. It divides a data set so that records with similar content are in the same group, and groups are as different as possible from each other. Since the categories are unspecified, this is sometimes referred to as unsupervised learning."
+confidence,"Confidence of rule “B given A” is a measure of how much more likely it is that B occurs when A has occurred. It is expressed as a percentage, with 100% meaning B always occurs if A has occurred. Statisticians refer to this as the conditional probability of B given A. When used with association rules, the term confidence is observational rather than predictive. (Statisticians also use this term in an unrelated way. There are ways to estimate an interval and the probability that the interval contains the true value of a parameter is called the interval confidence. So a 95% confidence interval for the mean has a probability of .95 of covering the true value of the mean.)"
+confusion matrix,"A confusion matrix shows the counts of the actual versus predicted class values. It shows not only how well the model predicts, but also presents the details needed to see exactly where things may have gone wrong."
+consequent,"When an association between two variables is defined, the second item (or right-hand side) is called the consequent. For example, in the relationship “When a prospector buys a pick, he buys a shovel 14% of the time,” “buys a shovel” is the consequent."
+continuous,"Continuous data can have any value in an interval of real numbers. That is, the value does not have to be an integer. Continuous is the opposite of discrete or categorical.nbsp;"
+Corpus,"A (text) corpus is a collection of documents, e.g. web pages, journal articles."
+Crawling,"It is an automatic method to find and follow links within a website, in order to scrape the information."
+cross validation,"A method of estimating the accuracy of a classification or regression model. The data set is divided into several parts, with each part in turn used to test a model fitted to the remaining parts."
+data,"Values collected through record keeping or by polling, observing, or measuring, typically organized for analysis or decision making. More simply, data is facts, transactions and figures."
+data format,"Data items can exist in many formats such as text, integer and floating-point decimal. Data format refers to the form of the data in the database."
+data mining,"An information extraction activity whose goal is to discover hidden facts contained in databases. Using a combination of machine learning, statistical analysis, modeling techniques and database technology, data mining finds patterns and subtle relationships in data and infers rules that allow the prediction of future results. Typical applications include market segmentation, customer profiling, fraud detection, evaluation of retail promotions, and credit risk analysis."
+data mining method,Procedures and algorithms designed to analyze the data in databases.
+DBMS,Database management systems.
+decision tree,A tree-like way of representing a collection of hierarchical rules that lead to a class or value.
+deduction,Deduction infers information that is a logical consequence of the data.
+degree of fit,A measure of how closely the model fits the training data. A common measure is r-square.
+dependent variable,The dependent variables (outputs or responses) of a model are the variables predicted by the equation or rules of the model using the independent variables (inputs or predictors).
+deployment,"After the model is trained and validated, it is used to analyze new data and make predictions. This use of the model is called deployment."
+dimension,Each attribute of a case or occurrence in the data being mined. Stored as a field in a flat file record or a column of relational database table.
+discrete,A data item that has a finite set of values. Discrete is the opposite of continuous.
+discriminant analysis,A statistical method based on maximum likelihood for determining boundaries that separate the data into categories.
+dt>training data,A data set used to estimate or train a model.
+Entity,Refers to a real world thing (e.g. a name such as cat).
+entropy,A way to measure variability other than the variance statistic. Some decision trees split the data into groups based on minimum entropy.
+exploratory analysis,Looking at data to discover relationships not previously detected. Exploratory analysis tools typically assist the user in creating tables and graphical displays.
+Extensible Mark-up Language (XML),"A web standard for document mark up, designed to simplify and provide flexibility to Web or other digital media authorship and design.  It is not a fixed-format language, in contrast to HTML, for example."
+external data,"Data not collected by the organization, such as data available from a reference book, a government source or a proprietary database."
+feed-forward,"A neural net in which the signals only flow in one direction, from the inputs to the outputs."
+fuzzy logic,"Fuzzy logic is applied to fuzzy sets where membership in a fuzzy set is a probability, not necessarily 0 or 1. Non-fuzzy logic manipulates outcomes that are either true or false. Fuzzy logic needs to be able to manipulate degrees of “maybe” in addition to true and false."
+genetic algorithms,"A computer-based method of generating and testing combinations of possible input parameters to find the optimal output. It uses processes based on natural evolution concepts such as genetic combination, mutation and natural selection."
+GUI,Graphical User Interface.
+hidden nodes,"The nodes in the hidden layers in a neural net. Unlike input and output nodes, the number of hidden nodes is not predetermined. The accuracy of the resulting model is affected by the number of hidden nodes. Since the number of hidden nodes directly affects the number of parameters in the model, a neural net needs a sufficient number of hidden nodes to enable it to properly model the underlying behavior. On the other hand, a net with too many hidden nodes will overfit the data. Some neural net products include algorithms that search over a number of alternative neural nets by varying the number of hidden nodes, in the end choosing the model that gets the best results without overfitting."
+Hypertext Mark-up Language (HTML),"This is a text based coding language, interpreted by web browsers and used to construct web pages."
+independent variable,The independent variables (inputs or predictors) of a model are the variables used in the equation or rules of the model to predict the output (dependent) variable.
+induction,A technique that infers generalizations from the information in the data.
+Information Extraction,Automatically isolating specific words or information from unstructured text.
+interaction,Two independent variables interact when changes in the value of one change the effect on the dependent variable of the other.
+internal data,Data collected by an organization such as operating and customer data.
+k-nearest neighbor,A classification method that classifies a point by calculating the distances between the point and points in the training data set. Then it assigns the point to the class that is most common among its k-nearest neighbors (where k is an integer).
+Kohonen feature map,A type of neural network that uses unsupervised learning to find patterns in data. In data mining it is employed for cluster analysis.
+layer,"Nodes in a neural net are usually grouped into layers, with each layer described as input, output or hidden. There are as many input nodes as there are input (independent) variables and as many output nodes as there are output (dependent) variables. Typically, there are one or two hidden layers."
+leaf,A node not further split — the terminal grouping — in a classification or decision tree.
+learning,Training models (estimating their parameters) based on existing data.
+least squares,The most common method of training (estimating) the weights (parameters) of a model by choosing the weights that minimize the sum of the squared deviation of the predicted values of the model from the observed values of the data.
+left-hand side,"When an association between two variables is defined, the first item is called the left-hand side (or antecedent). For example, in the relationship “When a prospector buys a pick, he buys a shovel 14% of the time”, “buys a pick” is the left-hand side."
+logistic regression (logistic discriminant analysis),"A generalization of linear regression. It is used for predicting a binary variable (with values such as yes/no or 0/1). An example of its use is modeling the odds that a borrower will default on a loan based on the borrower’s income, debt and age."
+Machine Learning,Mathematical and statistical methods (algorithms) that automatically identify patterns in data. The “learning” is the finding of those patterns.
+MARS,Multivariate Adaptive Regression Splines. MARS is a generalization of a decision tree.
+maximum likelihood,Another training or estimation method. The maximum likelihood estimate of a parameter is the value of a parameter that maximizes the probability that the data came from the population defined by the parameter.
+mean,The arithmetic average value of a collection of numeric data.
+median,"The value in the middle of a collection of ordered data. In other words, the value with the same number of items above and below it."
+missing data,"Data values can be missing because they were not measured, not answered, were unknown or were lost. Data mining methods vary in the way they treat missing values. Typically, they ignore the missing values, or omit any records containing missing values, or replace missing values with the mode or mean, or infer missing values from existing values."
+mode,"The most common value in a data set. If more than one value occurs the same number of times, the data is multi-modal."
+model,"An important function of data mining is the production of a model. A model can be descriptive or predictive. A descriptive model helps in understanding underlying processes or behavior. For example, an association model describes consumer behavior. A predictive model is an equation or set of rules that makes it possible to predict an unseen or unmeasured value (the dependent variable or output) from other, known values (independent variables or input). The form of the equation or rules is suggested by mining data collected from the process under study. Some training or estimation technique is used to estimate the parameters of the equation or rules."
+MPP,"Massively parallel processing, a computer configuration that is able to use hundreds or thousands of CPUs simultaneously. In MPP each node may be a single CPU or a collection of SMP CPUs. An MPP collection of SMP nodes is sometimes called an SMP cluster. Each node has its own copy of the operating system, memory, and disk storage, and there is a data or process exchange mechanism so that each computer can work on a different part of a problem. Software must be written specifically to take advantage of this architecture."
+Natural Language Processing (NLP) Tools,"Software systems or services facilitating the automatic analysis of text,
+e.g. named entity extraction."
+neural network,"A complex nonlinear modeling technique based on a model of a human neuron. A neural net is used to predict outputs (dependentvariables) from a set of inputs (independent variables) by taking linear combinations of the inputs and then making nonlinear transformations of the linear combinations using an activation function. It can be shown theoretically that such combinations and transformations can approximate virtually any type of response function. Thus, neural nets use large numbers of parameters to approximate any model. Neural nets are often applied to predict future outcome based on prior experience. For example, a neural net application could be used to predict who will respond to a direct mailing."
+node,"A decision point in a classification (i.e., decision) tree. Also, a point in a neural net that combines input from other nodes and produces an output through application of an activation function."
+noise,The difference between a model and its predictions. Sometimes data is referred to as noisy when it contains errors such as many missing or incorrect values or when there are extraneous columns.
+non-applicable data,"Missing values that would be logically impossible (e.g., pregnant males) or are obviously not relevant."
+normalize,A collection of numeric data is normalized by subtracting the minimum value from all values and dividing by the range of the data. This yields data with a similarly shaped histogram but with all values between 0 and 1. It is useful to do this for all inputs into neural nets and also for inputs into other regression models. (Also see standardize.)
+OLAP,On-Line Analytical Processing tools give the user the capability to perform multi-dimensional analysis of the data.
+Ontology,"The organization of a specific domain with the entities that belong in it and their relationships. So for example a domain could be “genes” or “chemistry”, the entity could be a specific gene e.g. 1245 and all the forms that it might show up in a text. This is how the human genome has been mapped."
+optimization criterion,A positive function of the difference between predictions and data estimates that are chosen so as to optimize the function or criterion. Least squares and maximum likelihood are examples.
+outliers,"Technically, outliers are data items that did not (or are thought not to have) come from the assumed population of data — for example, a non-numeric when you are expecting only numeric values. A more casual usage refers to data items that fall outside the boundaries that enclose most other data items in the data set."
+overfitting,A tendency of some modeling techniques to assign importance to random variations in the data by declaring them important patterns.
+overlay,"Data not collected by the organization, such as data from a proprietary database, that is combined with the organization’s own data."
+parallel processing,Several computers or CPUs linked together so that each can be computing simultaneously.
+Parsing,"(Linguistic) parsing refers to the process of (syntactic) analysis of text, i.e. identifying how a sentence follows the grammatical rules of a language.  It breaks down a unit/sentence into its component parts. You can also parse files into their component parts."
+pattern,Analysts and statisticians spend much of their time looking for patterns in data. A pattern can be a relationship between two variables. Data mining techniques include automatic pattern discovery that makes it possible to detect complicated non-linear relationships in data. Patterns are not the same as causality.
+precision,"The precision of an estimate of a parameter in a model is a measure of how variable the estimate would be over other similar data sets. A very precise estimate would be one that did not vary much over different data sets. Precision does not measure accuracy. Accuracy is a measure of how close the estimate is to the real value of the parameter. Accuracy is measured by the average distance over different data sets of the estimate from the real value. Estimates can be accurate but not precise, or precise but not accurate. A precise but inaccurate estimate is usually biased, with the bias equal to the average distance from the real value of the parameter."
+predictability,Some data mining vendors use predictability of associations or sequences to mean the same as confidence.
+prevalence,"The measure of how often the collection of items in an association occur together as a percentage of all the transactions. For example, “In 2% of the purchases at the hardware store, both a pick and a shovel were bought.”"
+pruning,"Eliminating lower level splits or entire sub-trees in a decision tree. This term is also used to describe algorithms that adjust the topology of a neural net by removing (i.e., pruning) hidden nodes."
+range,"The range of the data is the difference between the maximum value and the minimum value. Alternatively, range can include the minimum and maximum, as in “The value ranges from 2 to 8.”"
+RDBMS,Relational Database Management System.
+regression tree,A decision tree that predicts values of continuous variables.
+Relationship Extraction,"Process of automatically finding relationships between two (or more) entities within a text (semantic relationship), e.g. A cat sits on a mat."
+resubstitution error,The estimate of error based on the differences between the predicted values of a trained model and the observed values in the training set.
+right-hand side,"When an association between two variables is defined, the second item is called the right-hand side (or consequent). For example, in the relationship “When a prospector buys a pick, he buys a shovel 14% of the time,” “buys a shovel” is the right-hand side."
+r-squared,"A number between 0 and 1 that measures how well a model fits its training data. One is a perfect fit; however, zero implies the model has no predictive ability. It is computed as the covariance between the predicted and observed values divided by the standard deviations of the predicted and observed values."
+sampling,Creating a subset of data from the whole. Random sampling attempts to represent the whole by choosing the sample through a random mechanism.
+Scraping,"Scraping information is an automatic way to visit a website, copy and paste the information somewhere else."
+Semantic Relationship,"A linguistic relationship between two or more entities so that machines can understand that relationship, e.g. “is_a” as in a cat is an animal."
+sensitivity analysis,Varying the parameters of a model to assess the change in its output.
+Sentiment Analysis,"The extraction of words or phrases which convey emotional meaning. For example, the sentence “The chicken curry was salty and overpriced” indicates a negative sentiment as “overpriced” has an emotional meaning."
+sequence discovery,"The same as association, except that the time sequence of events is also considered. For example, “Twenty percent of the people who buy a VCR buy a camcorder within four months.”"
+significance,"A probability measure of how strongly the data support a certain result (usually of a statistical test). If the significance of a result is said to be .05, it means that there is only a .05 probability that the result could have happened by chance alone. Very low significance (less than .05) is usually taken as evidence that the data mining model should be accepted since events with very low probability seldom occur. So if the estimate of a parameter in a model showed a significance of .01 that would be evidence that the parameter must be in the model."
+SMP,"Symmetric multi-processing is a computer configuration where many CPUs share a common operating system, main memory and disks. They can work on different parts of a problem at the same time."
+standardize,"A collection of numeric data is standardized by subtracting a measure of central location (such as the mean or median) and by dividing by some measure of spread (such as the standard deviation, interquartile range or range). This yields data with a similarly shaped histogram with values centered around 0. It is sometimes useful to do this with inputs into neural nets and also inputs into other regression models. (Also see normalize.)"
+supervised learning,The collection of techniques where analysis uses a well-defined (known) dependent variable. All regression and classification techniques are supervised.
+support,"The measure of how often the collection of items in an association occur together as a percentage of all the transactions. For example, “In 2% of the purchases at the hardware store, both a pick and a shovel were bought.”"
+Taxonomy,"A controlled vocabulary organised in a hierarchical manner, or enriched with synonyms and non-hierarchical relationships e.g. cat is a feline, is a mammal, etc."
+test data,"A data set independent of the training data set, used to fine-tune the estimates of the model parameters (i.e., weights)."
+test error,The estimate of error based on the difference between the predictions of a model on a test data set and the observed values in the test data set when the test data set was not used to train the model.
+Text And Data Mining (TDM),"Text mining is the data analysis of natural language works (articles, books, etc.), using text as a form of data. It is often joined with data mining, the numeric analysis of data works (like filings and reports), and referred to as ""text and data mining"" or, simply, ""TDM.""
+TDM depends on the assembly of a working set of data/content against which an analytic process is run. This process breaks down digital information into raw data and text, analyses it, and comes up with new connections, from unexpected patterns. This can eventually lead to the development of a new drug, to subtle shifts in weather patterns that might predict a downturn in the price of wheat."
+time series,A series of measurements taken at consecutive points in time. Data mining products which handle time series incorporate time-related operators such as moving average. (Also see windowing.)
+time series model,A model that forecasts future values of a time series based on past values. The model form and training of the model usually take into consideration the correlation between values as a function of their separation in time.
+topology,"For a neural net, topology refers to the number of layers and the number of nodes in each layer."
+training,Another term for estimating a model’s parameters based on the data set at hand.
+transformation,"A re-expression of the data such as aggregating it, normalizing it, changing its unit of measure, or taking the logarithm of each data item."
+Treebank,This is as corpus of syntactically parsed documents used to train TDM models.
+unsupervised learning,This term refers to the collection of techniques where groupings of the data are defined without the use of a dependent variable. Cluster analysis is an example.
+validation,The process of testing the models with a data set different from the training data set.
+variance,The most commonly used statistical measure of dispersion. The first step is to square the deviations of a data item from its average value. Then the average of the squared deviations is calculated to obtain an overall measure of variability.
+visualization,Visualization tools graphically display data to facilitate better understanding of its meaning. Graphical capabilities range from simple scatter plots to complex multi-dimensional representations.
+windowing,"Used when training a model with time series data. A window is the period of time used for each training case. For example, if we have weekly stock price data that covers fifty weeks, and we set the window to five weeks, then the first training case uses weeks one through five and compares its prediction to week six. The second case uses weeks two through six to predict week seven, and so on."
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
